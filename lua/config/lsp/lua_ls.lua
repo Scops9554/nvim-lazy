@@ -14,7 +14,7 @@ lspconfig.lua_ls.setup({
       },
       workspace = {
         library = {
-          vim.fn.expand("~/.local/share/LuaAddons"), -- your addons path
+          vim.fn.expand("~/.local/share/LuaAddons"), -- Love2D addons path
         },
         checkThirdParty = false,
       },

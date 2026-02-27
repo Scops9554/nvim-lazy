@@ -21,10 +21,7 @@ return {
         },
       },
       documentation = {
-        auto_show = true,
-        window = {
-          border = "rounded",
-        },
+        auto_show = false,
       },
       -- Displays a preview of the selected item on the current line
       ghost_text = {
