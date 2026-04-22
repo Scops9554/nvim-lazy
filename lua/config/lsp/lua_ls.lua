@@ -15,6 +15,7 @@ lspconfig.lua_ls.setup({
       workspace = {
         library = {
           vim.fn.expand("~/.local/share/LuaAddons"), -- Love2D addons path
+          "~/.local/share/picotron_definitions/library/",
         },
         checkThirdParty = false,
       },
